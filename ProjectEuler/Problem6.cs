@@ -8,14 +8,26 @@ namespace ProjectEuler
 {
     class Problem6
     {
-        public void GetSumofSquares(int rangeStart, int rangeEnd)
-        {
 
+        public long GetDifference(int rangeStart, int rangeEnd)
+        {
+            return GetSquareofSum(rangeStart, rangeEnd) - GetSumofSquares(rangeStart, rangeEnd) ;
         }
 
-        public void GetSumSquares(int rangeStart, int rangeEnd)
+        public long GetSumofSquares(int rangeStart, int rangeEnd)
         {
+            long sumOfSquares = 0;
+            for(int i = rangeStart; i <= rangeEnd; i++)
+            {
+                sumOfSquares = sumOfSquares + (i * i);
+            }
+            return sumOfSquares;
+        }
 
+        public long GetSquareofSum(int rangeStart, int rangeEnd)
+        {
+            long squareOfSum = (rangeEnd * (rangeEnd + 1)) / 2;
+            return squareOfSum * squareOfSum;
         }
     }
 }

@@ -15,9 +15,14 @@ namespace ProjectEuler
             //Console.WriteLine("Event Sum   " + problem.Fibonacci().ToString());
             //Console.ReadLine();
 
-            Problem5 problem = new Problem5();
-            problem.SmallestMultipleMain(1, 20);
+            //Problem5 problem = new Problem5();
+            //problem.SmallestMultipleMain(1, 20);
+            //Console.ReadLine();
+
+            Problem6 problem = new Problem6();
+            Console.WriteLine(problem.GetDifference(1, 100));
             Console.ReadLine();
+
         }
     }
 }
