@@ -19,8 +19,12 @@ namespace ProjectEuler
             //problem.SmallestMultipleMain(1, 20);
             //Console.ReadLine();
 
-            Problem6 problem = new Problem6();
-            Console.WriteLine(problem.GetDifference(1, 100));
+            //Problem6 problem = new Problem6();
+            //Console.WriteLine(problem.GetDifference(1, 100));
+            //Console.ReadLine();
+
+            Problem7 problem = new Problem7();
+            Console.WriteLine(problem.GetnthPrime(10001));
             Console.ReadLine();
 
         }
