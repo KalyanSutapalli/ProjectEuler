@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler\ProjectEuler.csproj", "{5B164B00-7DBC-4C89-839B-A969B0E04C9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "..\Practice\Practice\Practice.csproj", "{6524F205-94E1-4259-A33D-30EB188E2A25}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoDS", "AlgoDS\AlgoDS.csproj", "{7A3320AB-7A38-4D37-9DB0-5D2C821921B1}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{5B164B00-7DBC-4C89-839B-A969B0E04C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B164B00-7DBC-4C89-839B-A969B0E04C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B164B00-7DBC-4C89-839B-A969B0E04C9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6524F205-94E1-4259-A33D-30EB188E2A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6524F205-94E1-4259-A33D-30EB188E2A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6524F205-94E1-4259-A33D-30EB188E2A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6524F205-94E1-4259-A33D-30EB188E2A25}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A3320AB-7A38-4D37-9DB0-5D2C821921B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A3320AB-7A38-4D37-9DB0-5D2C821921B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A3320AB-7A38-4D37-9DB0-5D2C821921B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
