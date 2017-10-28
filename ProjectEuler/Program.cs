@@ -27,8 +27,11 @@ namespace ProjectEuler
             //Console.WriteLine(problem.GetnthPrime(10001));
             //Console.ReadLine();
 
-            Problem8 problem = new Problem8();
-            problem.GetLargestMultiple();
+            //Problem8 problem = new Problem8();
+            //problem.GetLargestMultiple();
+
+            Problem11 problem = new Problem11();
+            problem.LargestProduct();
 
         }
     }
