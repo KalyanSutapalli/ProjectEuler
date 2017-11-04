@@ -10,7 +10,9 @@ namespace AlgoDS
     {
         static void Main(string[] args)
         {
-
+            //Solution.MainLeftRotation(new string[] { });
+            //SpraceArrays.MainSpraceArrays(new string[] { });
+            SolutionArrayManipulation.MainArrayManipulation(new string[] { });
         }
     }
 }

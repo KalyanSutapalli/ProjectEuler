@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problem11.cs" />
+    <Compile Include="Problem12.cs" />
     <Compile Include="Problem2.cs" />
     <Compile Include="Problem5.cs" />
     <Compile Include="Problem6.cs" />
