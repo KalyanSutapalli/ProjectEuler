@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A3320AB-7A38-4D37-9DB0-5D2C821921B1}</ProjectGuid>
+    <ProjectGuid>{3DE7D37F-478A-42FF-8CE8-9F66DC0EE660}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgoDS</RootNamespace>
-    <AssemblyName>AlgoDS</AssemblyName>
+    <RootNamespace>SatyaConsoleApp</RootNamespace>
+    <AssemblyName>SatyaConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayManipulation.cs" />
-    <Compile Include="BinaryTree.cs" />
-    <Compile Include="BinaryTreeNode.cs" />
-    <Compile Include="HackerRank\ChessboardGame.cs" />
-    <Compile Include="HackerRank\FindKthChar.cs" />
-    <Compile Include="HackerRank\LinkedList.cs" />
-    <Compile Include="HackerRank\TotalNumberofStrings.cs" />
-    <Compile Include="LeftRotation.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Program1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpraceArrays.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
