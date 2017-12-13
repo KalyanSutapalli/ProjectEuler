@@ -31,7 +31,7 @@ namespace AlgoDS.HackerRank
                     tempString = (finalBinaryString[j].ToString() == "0") ? tempString + "01" : tempString + "10";
                 }
                 finalBinaryString = tempString;
-            }
+            } 
 
             Console.WriteLine(finalBinaryString[k]);
             Console.ReadLine();
